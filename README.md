@@ -6,5 +6,14 @@
 
     echo 'Hello World'
 
+    $is_admin = true;
+
+    if($is_admin){
+        echo "<h1>Authorized User</h1>";
+    }
+    else{
+        echo "<h1>Normal User</h1>";
+    }
+
 ?>
 ```
