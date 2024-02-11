@@ -15,5 +15,15 @@
         echo "<h1>Normal User</h1>";
     }
 
+
+    $my_val = [1,2,3,4,5,6];
+    $var = 90;
+    echo"<pre>";
+    var_dump($my_val);
+    echo "</pre>";
+    var_dump( $my_val );
+    echo"<br>";
+    print_r( $my_val );
+
 ?>
 ```
