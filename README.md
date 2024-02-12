@@ -7,8 +7,10 @@ XAMPP will look for index.php file in directory specified.
 
     echo 'Hello World'
 
+    //Boolean
     $is_admin = true;
 
+    //if-else Statement
     if($is_admin){
         echo "<h1>Authorized User</h1>";
     }
@@ -16,14 +18,16 @@ XAMPP will look for index.php file in directory specified.
         echo "<h1>Normal User</h1>";
     }
 
-
+    //Array in PHP
     $my_val = [1,2,3,4,5,6];
+
+    //Variable in PHP
     $var = 90;
-    echo"<pre>";
+
+    //Can be Used to Print
     var_dump($my_val);
-    echo "</pre>";
-    var_dump( $my_val );
-    echo"<br>";
+
+    //Another Way we print in PHP
     print_r( $my_val );
 
 ?>
