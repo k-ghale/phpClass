@@ -1,7 +1,11 @@
+# XAMPP AND PHP - BASIC
+
 "D:\xampp\php\php.ini"
 -- can be used to manage memory and practice before deployment in real world.
 
 XAMPP will look for index.php file in directory specified.
+
+For Example : 
 ```
 #<?php
 
