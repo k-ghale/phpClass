@@ -7,28 +7,33 @@
 </head>
 <body>
     <?php
-        echo "Kabin Ghale";
+    echo "Kabin Ghale";
+
+    $admin = false;
+    $var = 10;
+    $arr = [1, 2, 3, 4, 5, 6, 7];
+
+    if ($admin == true) {
+        echo "<h1> Hello World.</h1>";
+    } else {
+        echo "<h2> Something went wrong!</h2>";
+    }
+
+    echo $var;
+    echo "<pre>";
+    var_dump($arr);
+    echo "<br>";
+
+    $arr_length = count($arr);
+    for ($i = 0; $i < $arr_length; $i++) {
+        echo $arr[$i] . "<br>";
+    }
+    // phpinfo();
     
-        $admin = false;
-        $var = 10;
-        $arr = [1,2,3,4,5,6,7];
 
-        if($admin == true){
-            echo "<h1> Hello World.</h1>";
-        }
-        else{
-            echo "<h2> Something went wrong!</h2>";
-        }
-
-        echo $var;
-        echo "<pre>";
-        var_dump($arr);
-
-        // phpinfo();
-
-
-        echo $_SERVER['HTTP_USER_AGENT'];
+    echo $_SERVER['HTTP_USER_AGENT'];
 
     ?>
 </body>
+
 </html>
