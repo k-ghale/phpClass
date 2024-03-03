@@ -39,6 +39,16 @@
         }
     }
 
+    echo "<br>";
+    for ($i = 0; $i < 100; $i++) {
+        if($i % 2 == 0){
+            echo "EVEN :".$i ."<br>";
+        }
+        else{
+            echo "ODD :".$i ."<br>";
+        }
+    }
+
 
     // phpinfo();
     
