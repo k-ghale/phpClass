@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 4</title>
+    <title>Class 3</title>
 </head>
 <body>
     <?php
@@ -28,8 +28,13 @@
     for ($i = 0; $i < $arr_length; $i++) {
         echo $arr[$i] . "<br>";
     }
+
     // phpinfo();
     
+    // echo sizeof($arr);
+    // echo "<br>";
+    // echo count($arr);
+    // echo "<br>";
 
     echo $_SERVER['HTTP_USER_AGENT'];
 
