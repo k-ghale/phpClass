@@ -29,6 +29,14 @@
         echo $arr[$i] . "<br>";
     }
 
+    echo "<br>";
+    for ($i = 0; $i < $arr_length; $i++) {
+        if($arr[$i] % 2 == 0){
+            echo $arr[$i] ."<br>";
+        }
+    }
+
+
     // phpinfo();
     
     // echo sizeof($arr);
@@ -36,6 +44,7 @@
     // echo count($arr);
     // echo "<br>";
 
+    echo "<br>";
     echo $_SERVER['HTTP_USER_AGENT'];
 
     ?>
