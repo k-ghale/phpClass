@@ -9,12 +9,12 @@
     <?php
     echo "Kabin Ghale";
 
-    $admin = false;
+    $admin = true;
     $var = 10;
     $arr = [1, 2, 3, 4, 5, 6, 7];
 
     if ($admin == true) {
-        echo "<h1> Hello World.</h1>";
+        echo "<h1> Hello Admin.</h1>";
     } else {
         echo "<h2> Something went wrong!</h2>";
     }
@@ -32,7 +32,10 @@
     echo "<br>";
     for ($i = 0; $i < $arr_length; $i++) {
         if($arr[$i] % 2 == 0){
-            echo $arr[$i] ."<br>";
+            echo "EVEN :".$arr[$i] ."<br>";
+        }
+        else{
+            echo "ODD :".$arr[$i] ."<br>";
         }
     }
 
